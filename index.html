@@ -58,7 +58,14 @@ h2.sec-title{font-family:var(--disp);font-weight:600;font-size:clamp(26px,3.4vw,
   background-position:0 0,7px 0;opacity:.9}
 
 /* ---------- top bar ---------- */
-.topbar{position:sticky;top:0;z-index:50;background:rgba(20,25,48,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line-d)}
+topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 .topbar .row{display:flex;align-items:center;gap:20px;padding:12px 0}
 .logo{display:flex;align-items:center;height:46px}
 .logo img{height:100%;width:auto;display:block}
